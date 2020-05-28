@@ -21,5 +21,5 @@ you can change your Port Number. like this "python manage.py runsever 8001".
 
 
 ## Installing TorchVision with Anaconda Navigator or Anaconda Prompt
-1.conda install -c pytorch
-2.conda install -c pytorch torchvision
+1. conda install -c pytorch
+2. conda install -c pytorch torchvision
