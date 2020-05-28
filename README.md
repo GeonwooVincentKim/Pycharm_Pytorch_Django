@@ -1,8 +1,8 @@
-# Pycharm_Pytorch_Django
+## Pycharm_Pytorch_Django
 Image Recognition Based on Pytorch and Django. And Use IDE Pycharm.
 
 
-# How to download and Execute this project
+## How to download and Execute this project
 1. Install virtualenv using the pip Module.
 2. Make Virtual Environment Project and make sure you have to name your own project.
 3. Install Django 3 and type this "django-admin startproject your_project_name"
