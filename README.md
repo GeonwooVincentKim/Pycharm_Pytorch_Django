@@ -13,3 +13,8 @@ If you want to make your own Application, type this "django-admin startapp your_
 To migrate your project, Type this "python manage.py migrate".
 7. To execute Web Application, Type this "python mange.py runserver".
 you can change your Port Number. like this "python manage.py runsever 8001".
+
+
+## When you got stock in "git error: failed to push some refs to remote"
+1. git pull --rebase origin master
+2. git push origin master
