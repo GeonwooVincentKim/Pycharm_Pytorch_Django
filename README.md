@@ -19,6 +19,7 @@ you can change your Port Number. like this "python manage.py runsever 8001".
 1. git pull --rebase origin master
 2. git push origin master
 
+
 ## Installing TorchVision with Anaconda Navigator or Anaconda Prompt
 1.conda install -c pytorch
 2.conda install -c pytorch torchvision
