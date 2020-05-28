@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %}</title>
+</head>
+<body>
+    {% block content %}
+    <div id="pytorch">
+        <a href="{% url 'Sub' %}">
+            <p>Move to Sub.html Files</p>
+            <span class="glyphicon glyphicon-log-in"></span>
+        </a>
+    </div>
+    {% endblock %}
+</body>
+</html>

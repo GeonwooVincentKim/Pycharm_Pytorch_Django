@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+{% block title %} Pytorch {% endblock %}
+{% block content %}
+    {% block Handle %}
+    <form action="{% url 'handle' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="image">
+        <input type="submit" value="Submit">
+    </form>
+    {% endblock %}
+{% endblock %}
