@@ -10,6 +10,7 @@ from Data_Class.Class_DS_Net import DS_Net
 
 
 class Path:
+    # Public Variables..
     # Divide Constant and String Variable
     n_classes = 14
     BATCH_SIZE = 64
@@ -51,4 +52,12 @@ if __name__ == "__main__":
         if image_list is None:
             image_list = path.TEST_IMAGE_LIST
 
-        test_dataset = DataSet
+        # Make sure that you should not use PATH
+        # Because PATH only can import Public Variables.
+        test_dataset = DataSet(
+            data_dir=path.DATA_DIR,
+            image_list=image_list,
+            transform=transforms
+        )
+
+        torch.backends.cudnn.benchmark = True
