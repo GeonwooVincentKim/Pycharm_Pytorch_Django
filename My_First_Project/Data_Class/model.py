@@ -5,8 +5,8 @@ import torch.utils.data
 import torch.backends.cudnn
 import torchvision.transforms as transforms
 
-from Data_Class.Class_DS_Net import DS_Net
-from Data_Class.Data_Set import DataSet
+from .Class_DS_Net import DS_Net
+from .Data_Set import DataSet
 
 
 class Path:
